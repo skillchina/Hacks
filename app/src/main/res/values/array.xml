@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="datas">
+        <item>第1章、布局相关的小窍门</item>
+        <item>第2章、介绍动画处理相关的小窍门</item>
+        <item>第3章、涵盖与View相关的小窍门</item>
+        <item>第4章、概况除IDE以外的可用工具</item>
+        <item>第5章、提供适用于Android开发的模式示例</item>
+        <item>第6章、提供一组适用于ListView和Adapter类的小窍门</item>
+        <item>第7章、解释如何在应用中使用第三方库</item>
+        <item>第8章、与其它语言交互</item>
+        <item>第9章、提供一些可用复用的代码片段</item>
+        <item>第10章、展示一些使用数据库的高级技巧</item>
+        <item>第11章、令应用程序运行在不同的Android版本上</item>
+        <item>第12章、如何构建应用的小窍门</item>
+    </array>
+</resources>
