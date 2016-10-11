@@ -35,6 +35,14 @@ public class TestActivity extends AppCompatActivity {
                 + "\n height->getHeight:" + ll_test.getHeight()+ "/getLayoutParams height" + ll_test.getLayoutParams().height
         );
 
+        int[] widthHeight = Utils.getWidthAndHeight(ll_test);
+        int parentWidth = widthHeight[0];
+        int parentHeight = widthHeight[1];
+        LogUtils.log("parentWidth:" + parentWidth
+                + "\n parentHeight:" + parentHeight
+                + " child's width:"
+                + (0 + 0.5 * parentWidth / 1));
+
         findViewById(R.id.btn_get_width).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

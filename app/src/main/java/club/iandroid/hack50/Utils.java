@@ -14,7 +14,7 @@ public class Utils {
      * @return
      */
     public static int[] getWidthAndHeight(View view) {
-        view.measure(0, 0);
+        view.measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED);
         return new int[]{view.getMeasuredWidth(), view.getMeasuredHeight()};
     }
 }

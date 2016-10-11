@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import club.iandroid.hack50.subject1.TestActivity;
+import club.iandroid.hack50.subjectThread.ThreadActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -16,7 +17,19 @@ public class MainActivity extends AppCompatActivity {
     private ListView mListView;
     private String[] datas;
     private Class[] classes = {
-            TestActivity.class
+            TestActivity.class,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            ThreadActivity.class
     };
 
 
@@ -37,8 +50,10 @@ public class MainActivity extends AppCompatActivity {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(MainActivity.this, classes[position]);
-                startActivity(intent);
+                if(classes[position]!=null) {
+                    Intent intent = new Intent(MainActivity.this, classes[position]);
+                    startActivity(intent);
+                }
             }
         });
     }
