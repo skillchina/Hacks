@@ -12,9 +12,7 @@ import club.iandroid.hack50.Utils;
 
 /**
  * Hack1 使用weight属性实现视图的居中显示
- *
- *
- * 
+ *外部链接：https://developer.android.com/reference/android/widget/LinearLayout.html
  */
 public class WeightActivity extends AppCompatActivity {
 

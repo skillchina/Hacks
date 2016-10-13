@@ -12,6 +12,8 @@ import club.iandroid.hack50.R;
  * 使用<include/>标签避免代码重复
  * @author jiarong
  * @time 2016/10/13 14:12
+ *
+ * 参考地址：https://developer.android.com/reference/android/view/ViewStub.html
  */
 public class IncludeViewStubActivity extends AppCompatActivity {
 
