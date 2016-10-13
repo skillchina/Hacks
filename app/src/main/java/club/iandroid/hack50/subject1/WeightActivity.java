@@ -2,7 +2,6 @@ package club.iandroid.hack50.subject1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -13,11 +12,11 @@ import club.iandroid.hack50.Utils;
 
 /**
  * Hack1 使用weight属性实现视图的居中显示
- * Hack2 使用延迟加载以及避免代码重复
- * Hack3 创建定制的ViewGroup
- * Hack4 偏好设置使用技巧
+ *
+ *
+ * 
  */
-public class TestActivity extends AppCompatActivity {
+public class WeightActivity extends AppCompatActivity {
 
     private LinearLayout ll_parent;
     private TextView tv_child;
@@ -54,8 +53,6 @@ public class TestActivity extends AppCompatActivity {
     private void hack1() {
         //一半的TextView的宽度计算
         //TextView's width + TextView's weight * parentView's width / sum(weight)
-
-
 
         LinearLayout ll_test = (LinearLayout) findViewById(R.id.ll_test);
         //在组件外部获取宽高，不能直接使用getWidth,getHeight--》值都是0

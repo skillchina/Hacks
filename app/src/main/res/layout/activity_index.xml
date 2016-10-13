@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_thread"
+    android:id="@+id/activity_index"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="club.iandroid.hack50.subjectThread.ThreadActivity"
+    tools:context="club.iandroid.hack50.subject1.IndexActivity"
     android:orientation="vertical">
     <Button
-        android:id="@+id/btn_thread"
+        android:id="@+id/btn_weight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thread Start"/>
+        android:text="Weight 权重"/>
 
     <Button
-        android:id="@+id/btn_cachedPool"
+        android:id="@+id/btn_include"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="newCachedThreadPool"/>
+        android:text="Include View Stub"/>
 
     <Button
-        android:id="@+id/btn_fixedPool"
+        android:id="@+id/btn_viewGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="newFixedThreadPool"/>
+        android:text="ViewGroup"/>
 
     <Button
-        android:id="@+id/btn_scheduledPool"
+        android:id="@+id/btn_setting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="newScheduledThreadPool"/>
-
-    <Button
-        android:id="@+id/btn_singelThread"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="newSingleThreadExecutor"/>
-
-    <Button
-        android:id="@+id/btn_invoke"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="代理演示"/>
+        android:text="偏好设置"/>
 </LinearLayout>

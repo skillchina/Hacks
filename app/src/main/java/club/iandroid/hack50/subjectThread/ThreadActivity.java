@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import java.lang.reflect.Proxy;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -13,6 +14,9 @@ import java.util.concurrent.TimeUnit;
 
 import club.iandroid.hack50.LogUtils;
 import club.iandroid.hack50.R;
+import club.iandroid.hack50.subjectProxy.Operate;
+import club.iandroid.hack50.subjectProxy.OperateImpl;
+import club.iandroid.hack50.subjectProxy.TimingInvocationHandler;
 
 /**
  * 线程 及 线程池 的使用
@@ -166,6 +170,22 @@ public class ThreadActivity extends AppCompatActivity {
                         }
                     });
                 }
+            }
+        });
+
+        findViewById(R.id.btn_invoke).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TimingInvocationHandler timing = new TimingInvocationHandler(new OperateImpl());
+                Operate operate = (Operate)(Proxy.newProxyInstance(Operate.class.getClassLoader(),
+                        new Class[]{Operate.class}, timing));
+
+                //call method of proxy instance
+                operate.operateMethod1();
+                operate.operateMethod2();
+                operate.operateMethod3();
+
+
             }
         });
     }
