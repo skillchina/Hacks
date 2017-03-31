@@ -21,7 +21,8 @@
         <activity android:name=".subject1.IncludeViewStubActivity" />
         <activity android:name=".subject1.ViewGroupActivity" />
         <activity android:name=".subject1.SettingActivity" />
-        <activity android:name=".subject1.IndexActivity"></activity>
+        <activity android:name=".subject1.IndexActivity" />
+        <activity android:name=".hellochart.HelloChartPileActivity"></activity>
     </application>
 
 </manifest>
