@@ -3,6 +3,7 @@ package club.iandroid.hack50.subject1;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -79,6 +80,11 @@ public class CascadeLayout extends ViewGroup {
             CascaLayoutParams lp = (CascaLayoutParams) child.getLayoutParams();
             child.layout(lp.x, lp.y, lp.x + child.getMeasuredWidth(), lp.y + child.getMeasuredHeight());
         }
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        return super.onTouchEvent(event);
     }
 
     @Override

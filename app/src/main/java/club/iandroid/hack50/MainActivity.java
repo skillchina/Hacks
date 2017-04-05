@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import club.iandroid.hack50.hellochart.HelloChartPileActivity;
+import club.iandroid.hack50.realmdemo.RealmActivity;
 import club.iandroid.hack50.subject1.IndexActivity;
 import club.iandroid.hack50.subject1.WeightActivity;
 import club.iandroid.hack50.subjectThread.ThreadActivity;
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             null,
             null,
             ThreadActivity.class,
-            HelloChartPileActivity.class
+            HelloChartPileActivity.class,
+            RealmActivity.class
     };
 
 
