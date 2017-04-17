@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<CalendarView 
+	    android:id="@+id/myCalendar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:firstDayOfWeek="3"
+	    android:shownWeekCount="5"
+	    android:selectedWeekBackgroundColor="#aff"
+	    android:focusedMonthDateColor="#f00"
+	    android:weekSeparatorLineColor="#f00"
+	    android:unfocusedMonthDateColor="#f9f"/>
+</LinearLayout>

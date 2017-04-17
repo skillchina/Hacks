@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnStringRequestGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StringRequest Get"/>
+
+    <Button
+        android:id="@+id/btnStringRequestPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StringRequest Post"/>
+
+    <Button
+        android:id="@+id/btnJsonObjectRequestGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JsonObjectRequest Get"/>
+
+    <Button
+        android:id="@+id/btnJsonObjectRequestPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JsonObjectRequest Post"/>
+
+    <Button
+        android:id="@+id/btnLoadImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoadImage"/>
+
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/mNetworkImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.android.volley.toolbox.NetworkImageView>
+</LinearLayout>

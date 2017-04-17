@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ListView"/>
+
+        <Button
+            android:id="@+id/btnManin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewHolder"/>
+
+
+        <Button
+            android:id="@+id/btn_lunbo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="轮播图"/>
+
+
+        <Button
+            android:id="@+id/btnMediaPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mediaplayer使用"/>
+
+        <Button
+            android:id="@+id/btnVolley"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volley使用"/>
+
+        <Button
+            android:id="@+id/btn_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文件读写"/>
+
+            <Button
+            android:id="@+id/btn_sqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQLiteOpenHelper"/>
+
+            <Button android:id="@+id/btn_sharedpreferency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SharedPreference"/>
+
+            <Button android:id="@+id/btn_masynctask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My AsyncTask"/>
+
+            <Button android:id="@+id/btn_mlistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My ListView"/>
+
+            <Button android:id="@+id/btn_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"/>
+
+            <Button android:id="@+id/btn_Scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ScrollView"/>
+
+            <Button android:id="@+id/btn_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ViewPager"/>
+
+
+            <Button android:id="@+id/btn_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment微信"/>
+
+            <Button android:id="@+id/btn_mwebview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WebView"/>
+
+            <Button android:id="@+id/btn_webview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="调用系统WebView"/>
+
+
+            <Button android:id="@+id/btn_permission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义权限"/>
+
+            <Button android:id="@+id/btn_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spinner"/>
+
+            <Button
+                android:id="@+id/btn_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="布局管理器"/>
+
+            <Button
+                android:id="@+id/btn_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="按钮"/>
+
+            <Button
+                android:id="@+id/btn_clock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clock"/>
+
+            <Button
+                android:id="@+id/btn_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ImageView"/>
+
+            <Button
+                android:id="@+id/btn_complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自动完成文本框"/>
+
+
+            <Button android:id="@+id/btnViewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ViewFlipper"/>
+            <Button
+                android:id="@+id/btn_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AdapterViewFlipper"/>
+            <Button
+                android:id="@+id/btn_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GridView"/>
+            <Button
+                android:id="@+id/btn_gridView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GridView2"/>
+
+
+        <Button
+            android:id="@+id/btn_expanda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ExpandableListView"/>
+
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar"/>
+
+        <Button
+            android:id="@+id/btn_progress_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题进度条"/>
+
+        <Button
+            android:id="@+id/btn_viewswitcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewSwitcher"/>
+
+        <Button
+            android:id="@+id/btn_loadmore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LoadMore"/>
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification"/>
+
+        <Button
+            android:id="@+id/btn_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calendar"/>
+
+        <Button
+            android:id="@+id/btn_async"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AsyncTask异步任务"/>
+
+        <Button
+            android:id="@+id/btn_stackview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StackView"/>
+
+        <Button
+            android:id="@+id/btn_tabbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TabBar"/>
+
+        <Button
+            android:id="@+id/btn_actionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ActionBar"/>
+
+        <Button
+            android:id="@+id/btn_launcheractivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LauncherActivity"/>
+
+
+
+        <Button
+            android:id="@+id/btn_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话管理器"/>
+
+        <Button
+            android:id="@+id/btn_marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跑马灯"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
