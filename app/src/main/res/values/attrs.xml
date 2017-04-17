@@ -8,4 +8,9 @@
     <declare-styleable name="CascadeLayout_LayoutParams">
         <attr name="layout_vertical_spacing" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
 </resources>

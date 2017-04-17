@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="club.iandroid.hack50">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".AppContext"
         android:allowBackup="true"
@@ -22,7 +26,12 @@
         <activity android:name=".subject1.ViewGroupActivity" />
         <activity android:name=".subject1.SettingActivity" />
         <activity android:name=".subject1.IndexActivity" />
-        <activity android:name=".hellochart.HelloChartPileActivity"></activity>
+        <activity android:name=".hellochart.HelloChartPileActivity" />
+        <activity android:name=".designpattern.SingleTonActivity" />
+        <activity android:name=".demo.activity.TestActivity" />
+        <activity android:name=".realmdemo.RealmActivity" />
+        <activity android:name=".rxjava.RxjavaActivity" />
+        <activity android:name=".dagger.mvp.LoginActivity"></activity>
     </application>
 
 </manifest>

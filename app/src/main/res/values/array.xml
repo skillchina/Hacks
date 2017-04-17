@@ -15,5 +15,9 @@
         <item>第12章、如何构建应用的小窍门</item>
         <item>Java线程池的使用</item>
         <item>HelloCharts</item>
+        <item>Realm数据库使用</item>
+        <item>Rxjava使用</item>
     </array>
+
+
 </resources>

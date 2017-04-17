@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hack50</string>
+    <string name="status_output">Status Output…</string>
 </resources>

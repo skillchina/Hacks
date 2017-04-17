@@ -2,10 +2,59 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- 随主题而改变的颜色（如CheckBox的颜色）-->
+        <item name="colorAccent">@color/gold</item>
+        <!--状态栏的颜色 （使用support包时似乎无效。）-->
+        <item name="colorPrimaryDark">@color/gold</item>
+
+        <!--ActionBar的样式-->
+        <item name="actionBarStyle">@style/AppTheme.ActionBarStyle</item>
     </style>
 
+
+
+    <style name="AppTheme.ActionBarStyle" parent="Widget.AppCompat.ActionBar.Solid" type="text/css">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" type="text/css"><!--ActionBar标题文字颜色-->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Application theme. -->
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+    <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--&lt;!&ndash;Main theme colors&ndash;&gt;-->
+    <!--&lt;!&ndash;app branding color for the app bar&ndash;&gt;-->
+    <!--<item name="android:colorPrimary">#BEBEBE</item>-->
+    <!--&lt;!&ndash;darker variant for the status bar and contextual app bars&ndash;&gt;-->
+    <!--<item name="android:colorPrimaryDark">#FF5AEBFF</item>-->
+    <!--&lt;!&ndash;theme UI controls like checkboxes and text fields&ndash;&gt;-->
+    <!--<item name="android:navigationBarColor">#FFFF4130</item>-->
+    <!--</style>-->
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
